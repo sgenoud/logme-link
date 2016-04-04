@@ -1,4 +1,6 @@
-## Logme Links
+<p align="center">
+    <img width="250px" src="https://raw.githubusercontent.com/sgenoud/logme-link/master/artwork/logo.png">
+</p>
 
 
 The Apple TV does not have web view, and therefore does not allow you to do
@@ -117,3 +119,6 @@ To create a new service you can simply create a package exposing the following
 
 You can register it by adding it to the SERVICES dict. Pull requests welcome!
 
+
+The LogMe Link logo icon has been created by Yaroslav Samoilov from the Noun
+Project.
