@@ -35,8 +35,8 @@ REDIS_HOST = os.environ.get('REDIS_HOST', 'localhost')
 REDIS_PORT = os.environ.get('REDIS_PORT', 6379)
 REDIS = (REDIS_HOST, REDIS_PORT)
 
-HOST = os.environ.get('SERVE_ON', '0.0.0.0')
-PORT = os.environ.get('SERVE_ON_PORT', 8080)
+SERVE_ON = os.environ.get('HOST', '0.0.0.0')
+SERVE_ON_PORT = os.environ.get('PORT', 8080)
 
 MY_URL = os.environ.get('SERVER_URL', 'http://localhost:8080')
 KEY_TTL = int(os.environ.get('KEY_TTL', 300))
